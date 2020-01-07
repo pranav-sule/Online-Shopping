@@ -1,0 +1,106 @@
+.header{
+
+	width: 100%;
+	height: 70px;
+	display: block;
+	background-color: black;
+	}
+
+.mid_header{
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin:0 auto;
+}
+
+.logo{
+	height:100%;
+	dispaly: table;
+
+	float: left;
+	color: white;
+}
+
+.logo h1{
+	color: white;
+	height: 100%;
+	display: table-cell;
+	verical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 50;
+}
+.logo h1 span{
+	font-weight: 1000;
+}
+.inner_header{
+
+	float: right;
+
+	height: 100%;
+
+}
+
+.inner_header a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+
+}
+
+.inner-header a:last-child{
+	padding-right:  0;
+}
+
+.inner_header a li{
+	display: table-cell;
+	vertical-align: middle;
+	height:100%;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
+
+	
+}
+.content{
+	width:500px;
+	height:500px;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:50px;
+	
+	display:table;
+	box-sizing: border-box;
+
+}
+
+@media screen and (min-width:768px){
+	.content{
+		height:50vh;
+		margin: 10px;
+		padding: 10px;
+		width: 100%;
+
+	}
+}
+.row{
+	margin: 10px 0;
+}
+
+.col{
+	display: table-cell;
+	padding: 10px;
+	width:25%;
+	color:black;
+	font-family: sans-serif;
+	verticl-align: middle;
+	border-right:10px solid #fff;
+	border-left: 10px solid #fff;
+}
+
+body{
+	background-image: url("C:\Users\satis\OneDrive\Desktop\shruti\ip poroject\new\img.png" background-size="cover");
+	background-size: 100% 100%;
+}
